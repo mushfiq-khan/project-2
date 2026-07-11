@@ -20,7 +20,7 @@
     transition: background 0.3s;
     box-shadow: 0 4px 12px #1e51dd4d;
 }
-/*common-bt-end*/
+/*common-btn-end*/
 body{
     background-color: aliceblue;
 }
@@ -88,3 +88,47 @@ ul li a:hover {
     max-width: 600px;
 }
 /*hero section end*/
+/*card section start*/
+.speakers{
+    margin: 60px auto;
+    text-align: center;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.speakers-card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    row-gap: 30px;
+}
+.card-1, .card-2, .card-3, .card-4{
+    width: 48%;
+    text-align: left;
+    border: 1px solid #ebdcdca8;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.card-content {
+    padding: 20px;
+}
+.card-content h5 {
+    color: #2563eb;
+    font-size: 12px;
+    margin: 0 0 8px 0;
+    font-weight: 700;
+}
+.card-content h3 {
+    color: #111827;
+    font-size: 22px;
+    margin: 0 0 6px 0;
+    font-weight: 700;
+}
+.card-content p {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 0;
+}
+/*card section end*/

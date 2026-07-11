@@ -183,3 +183,7 @@ This is the **only** section where AI usage is expected and encouraged.
 
 **Page looks fine locally but broken on GitHub Pages?**
 - Check all file/folder names for typos and casing mismatches. Windows ignores case, but GitHub Pages (Linux) does not.
+
+
+
+Create a simple and professional Newsletter section for the empty "Something Missing" area using the same max-width and margin as our pricing section. Inside a light purple box with a solid or dashed border, place the headline and paragraph text on the left under a "newsletter-text" container. On the right side, arrange an email input field and a subscription button stacked vertically (one below the other) with a gap between them. Make sure the input field takes full width, but the button stays small and aligned to the right corner. Use our existing .common-btn class for the button to maintain design consistency, and add a gap between the left text and the right form so they don't look crowded.

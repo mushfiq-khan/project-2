@@ -4,10 +4,6 @@
     font-family: "Open Sans", sans-serif;
 }
 /*common button*/
-.common-btn:hover {
-    box-shadow: 0 6px 20px #1e51dd80;
-    transform: translateY(-2px);
-}
 .common-btn{
     background-color: #1e51dd;
     padding: 10px 24px;
@@ -18,7 +14,10 @@
     border: none;
     cursor: pointer;
     transition: background 0.3s;
-    box-shadow: 0 4px 12px #1e51dd4d;
+}
+.common-btn:hover {
+    box-shadow: 0 6px 20px #1e51dd80;
+    transform: translateY(-2px);
 }
 /*common-btn-end*/
 body{
@@ -118,13 +117,13 @@ ul li a:hover {
     color: #2563eb;
     font-size: 12px;
     margin: 0 0 8px 0;
-    font-weight: 700;
+    font-weight: bold;
 }
 .card-content h3 {
     color: #111827;
     font-size: 22px;
     margin: 0 0 6px 0;
-    font-weight: 700;
+    font-weight: bold;
 }
 .card-content p {
     color: #6b7280;
@@ -132,3 +131,210 @@ ul li a:hover {
     margin: 0;
 }
 /*card section end*/
+/*price section start*/
+.price-section{
+    margin: 60px auto;
+    text-align: center;
+    max-width: 1200px;
+    padding: 0 60px;
+}
+.price-card-container{
+    margin-top: 40px;
+    display: flex;                 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.price-section h1{
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+.price-section p {
+    color: #6b7280;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.price-card p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.pro-card p{
+    color: #336ec0;
+}
+.price-card h2 {
+    margin: 0;
+}
+.pro-card h2{
+    color: #ffffff;
+}
+.price-card span {
+    display: block;
+    color: #374151;
+    margin-top: 5px;
+}
+.pro-card span{
+    color: #94a3b8;
+}
+.price-card hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+}
+.pro-card hr{
+    border-top: 1px solid #1e293b;
+}
+.price-card {
+    width: 30%;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.price-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0 0 30px 0;
+    flex-grow: 1;
+    display: block !important;
+}
+.price-card ul li {
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+.price-card ul li::marker {
+    color: #2563eb;
+}
+.pro-card ul li{
+    color: #cbd5e1;
+}
+.price-card .btn-team{
+    border: 1px solid #1f2937;
+    color: #1f2937;
+    background-color: transparent;
+}
+.price-card .btn-team:hover {
+    background-color: #eef0f4;
+}
+.price-card button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+}
+.pro-card .btn-blue{
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+.price-card button:hover {
+    box-shadow: 0 6px 20px #1e51dd80;
+    transform: translateY(-2px);
+}
+.pro-card{
+    background-color: #0b1329;
+    color: #ffffff;
+    border: none;
+}
+/*price section end*/
+/* Own idea implement start with AI */
+.newsletter-section {
+    margin: 80px auto;
+    max-width: 1200px;
+    padding: 0 60px;
+}
+.newsletter-box {
+    background-color: #ece9f1;
+    border: 2px;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 40px;
+}
+.newsletter-text{
+    width: 55%;
+}
+.newsletter-text h2{
+    font-size: 28px;
+    color: #6b21a8;
+    margin: 0 0 10px 0;
+}
+.newsletter-text p{
+    font-size: 15px;
+    color: #7c3aed;
+    margin: 0;
+    line-height: 1.5;
+}
+.newsletter-form {
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.newsletter-form input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #c084fc;
+    border-radius: 12px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+.newsletter-form input:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.newsletter-form .common-btn {
+    width: auto;
+    margin-right: auto;
+    display: block;
+}
+/* Own idea implement start end */
+/*footer section start*/
+
+.footer-section{
+    background-color: #0b192c;
+    padding: 24px 0;
+    width: 100%;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-p{
+    color: #94a3b8;
+    font-size: 14px;
+    margin: 0;
+}
+.footer-link{
+    display: flex;
+    gap: 24px;
+}
+.footer-link a{
+    color: #94a3b8;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-link a:hover{
+    color: #ffffff;
+}
+/*footer section start*/

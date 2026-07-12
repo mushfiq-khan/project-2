@@ -102,7 +102,7 @@ ul li a:hover {
     gap: 25px;
     row-gap: 30px;
 }
-.card-1, .card-2, .card-3, .card-4{
+.card{
     width: 48%;
     text-align: left;
     border: 1px solid #ebdcdca8;
@@ -328,7 +328,8 @@ ul li a:hover {
     align-items: center;
 }
 .footer-up img{
-
+    height: 40px;
+    width: auto;
 }
 .social-icons{
     display: flex;
@@ -347,7 +348,7 @@ ul li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     border: none;
-    border-top: 1px solid #1e293b;
+    border-top: 1.5px solid #1e293b;
 }
 .footer-p{
     color: #94a3b8;
